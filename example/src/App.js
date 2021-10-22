@@ -1,10 +1,10 @@
 import React from 'react'
-
-import { ExampleComponent } from 'anchor_component_networking'
-import 'anchor_component_networking/dist/index.css'
+import network from 'anchor_component_networking'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  // console.log('............. app')
+  // console.log(network)
+  return <div></div>
 }
 
 export default App
